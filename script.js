@@ -36,9 +36,9 @@ const getEmail = (emails) => {
       </div>
     `).join('');
     emailElm.innerHTML = `
-      <h2>Unread emails</h2>
+      <h2>Nepřečtené zprávy</h2>
       ${unreadHtml}
-      <h2>Read emails</h2>
+      <h2>Přečtené zprávy</h2>
       ${readHtml}
     `;
   };
